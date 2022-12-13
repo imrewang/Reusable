@@ -3,10 +3,10 @@
 #include <math.h>
 #define	 PI 3.14159
 
-// 在当前设备上绘制带透明通道的png图片
-// img_x	绘制位置的x坐标
-// img_y	绘制位置的y坐标
-// pSrcImg	要绘制的IMAGE对象指针
+// 鍦ㄥ綋鍓嶈澶囦笂缁樺埗甯﹂�忔槑閫氶亾鐨刾ng鍥剧墖
+// img_x	缁樺埗浣嶇疆鐨剎鍧愭爣
+// img_y	缁樺埗浣嶇疆鐨剏鍧愭爣
+// pSrcImg	瑕佺粯鍒剁殑IMAGE瀵硅薄鎸囬拡
 void putimagePng(int img_x, int img_y, IMAGE* pSrcImg) 
 {
 	DWORD * dst = GetImageBuffer();
