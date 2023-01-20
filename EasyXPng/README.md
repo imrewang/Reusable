@@ -17,3 +17,7 @@ for (int i = 0; i < life; i++){
 }
 ```
 
+### 三、说明
+
+EasyXPng1.h是putimagePng声明和定义在一起，可能会出现链接错误
+建议使用EasyXPng.h和EasyXPng.cpp
