@@ -19,3 +19,7 @@ main.cpp+sql.h、sql.cpp
 ### 四、说明
 
 使用sql.h、sql.cpp与main.cpp，内有注释说明
+
+### 五、补充
+
+增加了MySQL安装、使用vs2019连接，测试，基础小项目的文档，.doc（来源见水印）
